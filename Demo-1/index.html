@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+  <style>
+    body{
+      box-sizing: border-box;
+    }
+    h1{
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border: 2px solid gray;
+      background-color: tomato;
+    }
+  </style>
+</head>
+<body>
+  <h1>----------< Table Section >-------- </h1>
+  <h1>Styling using Bootstrap.</h1>
+  <div class="container mt-3">
+  <table class="table table-bordered table-hover table-dark">
+    <h2>Employee Detail</h2>
+    <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>vinod</td>
+        <td>Sontakke</td>
+        <td>vs23240522gmail.com</td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <td>vinod</td>
+        <td>Sontakke</td>
+        <td>vs23240522gmail.com</td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <td>vinod</td>
+        <td>Sontakke</td>
+        <td>vs23240522gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <h1>----------< Images Section >-------- </h1>
+  <div class="container mt-5">
+  <img src="product_26.png" class="rounded-circle float-start" alt="">
+  <img src="product_26.png" class="rounded-thumbnail float-end" alt="">
+  <img src="product_26.png" class="img-fluid rounded-thumbnail mx-auto d-block img-fluid" alt="">
+  </div>
+  <h1>----------< Info Box Or Jumbo Box >-------- </h1>
+  <div class="container mt-5">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <h2>Jumbo example</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quisquam, rem rerum repudiandae possimus, saepe magnam nisi eligendi impedit aperiam laboriosam similique, suscipit recusandae perferendis cumque officia eaque? Dolorum, expedita!</p>
+    </div>
+  </div>
+  <h1>----------< buttons with Dropdown >-------- </h1> 
+<div class="container mt-5">
+  <div class="btn-group">
+    <div class="btn btn-primary">Home</div>
+    <div class="btn btn-primary">About</div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Contact </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Tablet</a>
+        <a class="dropdown-item" href="#">Smartphone</a>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quae saepe suscipit, maiores corporis cumque ab temporibus dolorum delectus neque dolore illum ipsa deleniti sunt dignissimos nesciunt provident ad praesentium.</p>
+  </div>
+  </div>
+  <h1>----------< This are progess bars >-------- </h1>
+  <div class="container mt-5"> 
+    <div class="progress">
+    <div class="progress-bar" bg-warmimg style="width: 70%;" >
+      70%
+    </div>
+  </div>
+  </div>
+
+  <h1>----------< spinner-border and spinner-grow >-------- </h1>
+   <div class="container mt-5"> 
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+    </button>
+    <button class="btn btn-danger">
+      <span class="spinner-grow spinner-grow-sm"></span>
+      Processing
+    </button>
+  </div>
+  <h1>----------< list-group with list-group-content >-------- </h1>
+  <div class="container mt-5">
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-item-center">
+          Index
+          <span class="badge bg-primary rounded-pill">1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-center">
+          Summery
+          <span class="badge bg-warning rounded-pill">2</span>
+        </li>
+      </ul>
+  </div>
+  <h1>----------< card image >-------- </h1>
+  <div class="container mt-5">
+    <div class="card" style="width: 200px;"> 
+      <img src="product_31.png" alt="">
+      <div class="card-body">
+        <h4 class="card-title">Vikas Pandit.</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et maxime doloremque quae veniam sed quibusdam laborum repellendus</p>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+  </div>
+  <h1>----------< Collapse Section >-------- </h1>
+<div class="container mt-5">
+  <button data-bs-toggle="collapse" class="btn btn-primary" data-bs-target="#demo">Collapasable</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore alias enim incidunt a similique fugit praesentium voluptate, dolor aperiam saepe dicta blanditiis quas, maiores atque vel iusto facere nisi totam.
+  </div>
+</div>
+  <h1>----------< Dropdown pill Nav Section >-------- </h1>
+  <div class="container mt-5">
+    <h2>Dropdown pills</h2>
+    <ul class="nav nav-pills">
+      <li class="nav-items">
+        <a href="#" class="nav-link active">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="optns" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+        <ul class="dropdown-menu">
+          <li><a href="optns" class="dropdown-item">Opt 1</a></li>
+          <li><a href="optns" class="dropdown-item">Opt 2</a></li>
+          <li><a href="optns" class="dropdown-item">Opt 3</a></li>
+          <li><a href="optns" class="dropdown-item">Opt 4</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled"></a>
+      </li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, esse odio, sed debitis accusantium eaque, sit pariatur delectus nulla tenetur porro totam blanditiis vel architecto consequuntur tempora voluptates? Quidem, magni?</p>
+  </div>
+  <h1>----------< Dropdown pill Nav Section >-------- </h1>
+</body>
+</html>
